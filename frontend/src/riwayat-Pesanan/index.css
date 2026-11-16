@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --primary: #0f172a;       /* Slate 900 - Teks & Header gelap */
+  --accent: #f97316;        /* Orange 500 - Khas tombol aksi rental */
+  --accent-hover: #ea580c;
+  --blue-brand: #2563eb;    /* Blue 600 - Aksen kepercayaan */
+  --bg-page: #f8fafc;       /* Slate 50 */
+  --bg-card: #ffffff;
+  --text-main: #1e293b;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+
+  /* Status Colors */
+  --pending-bg: #fef3c7;
+  --pending-text: #b45309;
+  --pending-border: #fde68a;
+
+  --approved-bg: #dbeafe;
+  --approved-text: #1d4ed8;
+  --approved-border: #bfdbfe;
+
+  --completed-bg: #dcfce7;
+  --completed-text: #15803d;
+  --completed-border: #bbf7d0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--bg-page);
+  color: var(--text-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
